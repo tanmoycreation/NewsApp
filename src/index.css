@@ -1,0 +1,164 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  /* Navbar Styles */
+  nav {
+    background: #2f4276;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 10px 0;
+    padding: 0;
+  }
+  
+  nav ul a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  nav ul a:hover {
+    text-decoration: underline;
+  }
+  
+  .searchBar {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .searchBar input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 1em;
+    flex: 1;
+  }
+  
+  .searchBar button {
+    padding: 10px 20px;
+    border: none;
+    background: #ff5722;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .searchBar button:hover {
+    background: #e64a19;
+  }
+  
+  /* Category Buttons Styles */
+  .categoryBtn {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .categoryBtn button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c91f44;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+  }
+  
+  .categoryBtn button:hover {
+    background-color: #1976d2;
+  }
+  
+  /* Card Container Styles */
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .card {
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .cardContent {
+    margin-top: 10px;
+  }
+  
+  .cardContent a {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 5px;
+  }
+  
+  .cardContent a:hover {
+    text-decoration: underline;
+  }
+  
+  .cardContent p {
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  .cardContent button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+  }
+  
+  .cardContent button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Headings and Text */
+  .head {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2em;
+    margin: 20px 0;
+  }
+  
